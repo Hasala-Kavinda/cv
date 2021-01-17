@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  /*
+  margin-top : 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  */
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  color : #506b66;
+  
+
+}
+
+hr {
+
+  border-color: #cfe0dd;
+  border-style : none;
+  border-top-style: dotted;
+  border-width : 7px;
+  width: 5%;
+  margin: 80px auto 50px auto;
+}
+
+h1 {
+  font-size : 5.625rem; /*100% = 1em = 16px*/
+  color : #b088f9;
+  margin: 50px auto 0 auto ;
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+  line-height : 2;
+
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size : 2.5rem;
+  color : #b088f9 ;
+  font-weight: bold;
+  
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color : #da9ff9;
+  font-weight: bold;
+}
+p{
+  line-height: 2;
+}
+
+/*
+#java-description {
+  clear :right;
+}
+This lines of code make the text around the java image 
+unwrapped from it.
+*/
+
+.pro {
+  text-decoration: underline;
+}
+.intro {
+  width : 30%;
+  margin: auto ;
+}
+
+#pic {
+  padding-top : 60px;
+  width : 200px;
+  height : 200px;
+}
+
+.top-container {
+  padding-top: 100px;
+  background-color: #bedcfa;
+  position: relative;
+  padding-bottom : 25px;
+}
+.bottom-container {
+  
+  padding-top : 30px;
+  background-color : #bedcfa;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 80px;
+  right: 280px;
+}
+.skill-row {
+  width :50%;
+  margin : 100px auto 100px auto;
+  text-align: left ;
+}
+.code-img {
+  width : 25%;
+  float : right;
+  margin-left: 30px;
+} 
+.python-img {
+  width : 25%;
+  float : left; 
+  /*We can use clear property to clear a specific unit from its floating 
+      eg - if we use clear : left value inside the class that append to the 
+      text then it clears its left side. */
+  margin-right: 30px;
+}
+.java-img{
+  
+  width : 25%;
+  float : right;
+  margin-left: 30px ;
+  
+}
+.hack-img {
+  width : 25%;
+  float : left;
+  margin-right : 30px;
+}
+.contact-me {
+  line-height: 1.5;
+}
+.btn {
+  text-decoration: none;
+  font-weight: bold;
+  color: #F96BCE !important;
+  font-size: 15px;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 2px solid #F96BCE;
+  background: #FFFFFF;
+  margin-top: 30px;
+}
+.btn:hover {
+  color: #FFFFFF !important;
+  background: #F96BCE;
+  background: linear-gradient(to top, #F96BCE, #F295F9);
+}
+.btn-container {
+  margin : 30px auto 50px auto;
+}
+
+#copyright {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  padding-top : 20px;
+  font-size : 0.75rem;
+  color : #EAF6F6;
+  font-family: "Arial", sans-serif; 
+  /*Instead of having 0 margin around this text we can specify 
+  a padding around the bottom-container and then the margin 
+  around this p tag won't be affected at all */
+}
+.contact-msg {
+  width : 40%;
+}
+
+
+/*Footer links*/
+.facebook-img {
+  width : 2%;
+  padding : 5px 10px 5px 10px;
+}
+.twitter-img {
+  width : 2%;
+  padding : 5px 10px 5px 10px;
+}
+.google-img {
+  width : 2%;
+  padding : 5px 10px 5px 10px;
+}
+.social-links {
+  margin : auto;
+}
